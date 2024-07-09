@@ -24,7 +24,7 @@ keystoreProperties.load(FileInputStream(keystorePropertiesFile))
 
 android {
     namespace = "com.hara.kaera"
-    compileSdk = 33
+    compileSdk = 34
 
     signingConfigs {
         create("realse") {
@@ -39,9 +39,9 @@ android {
     defaultConfig {
         applicationId = "com.hara.kaera"
         minSdk = 28
-        targetSdk = 33
-        versionCode = 2
-        versionName = "1.1"
+        targetSdk = 34
+        versionCode = 3
+        versionName = "1.2"
 
         buildConfigField("String", "BASE_URL", properties.getProperty("BASE_URL"))
         buildConfigField("String", "BEARER_TOKEN", properties.getProperty("BEARER_TOKEN"))

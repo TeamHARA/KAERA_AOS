@@ -21,7 +21,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kaera"
         android:usesCleartextTraffic="true"
-        tools:targetApi="33">
+        tools:targetApi="34">
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/typography_kaera" />
