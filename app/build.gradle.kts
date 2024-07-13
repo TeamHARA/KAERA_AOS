@@ -40,7 +40,7 @@ android {
         applicationId = "com.hara.kaera"
         minSdk = 28
         targetSdk = 34
-        versionCode = 3
+        versionCode = 4
         versionName = "1.2"
 
         buildConfigField("String", "BASE_URL", properties.getProperty("BASE_URL"))
